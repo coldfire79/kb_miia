@@ -1,7 +1,7 @@
 #
 # define display information
 #
-name: Infer Microbial Interactions with MIIA
+name: Perform Network Inference with MIIA
 
 tooltip: |
     Perform network inference for the microbial community using MIIA
