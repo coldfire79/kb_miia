@@ -1,4 +1,4 @@
-# kb-miia release notes
+# kb_miia release notes
 =========================================
 
 0.0.0

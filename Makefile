@@ -1,7 +1,7 @@
-SERVICE = kb-miia
-SERVICE_CAPS = kb-miia
-SPEC_FILE = kb-miia.spec
-URL = https://kbase.us/services/kb-miia
+SERVICE = kb_miia
+SERVICE_CAPS = kb_miia
+SPEC_FILE = kb_miia.spec
+URL = https://kbase.us/services/kb_miia
 DIR = $(shell pwd)
 LIB_DIR = lib
 SCRIPTS_DIR = scripts

@@ -23,7 +23,7 @@
     "behavior": {
         "service-mapping": {
             "url": "",
-            "name": "kb-miia",
+            "name": "kb_miia",
             "method": "run_MIIA",
             "input_mapping": [
                 {

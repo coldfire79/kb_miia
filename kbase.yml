@@ -1,8 +1,8 @@
 module-name:
-    kb-miia
+    kb_miia
 
 module-description:
-    A KBase module
+    A KBase module for network inference for microbial interactions
 
 service-language:
     python
