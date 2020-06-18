@@ -1,10 +1,10 @@
 #
 # define display information
 #
-name: Method Name Here
+name: Infer Microbial Interactions with MIIA
 
 tooltip: |
-    Perform some kind of method
+    Perform network inference for the microbial community using MIIA
 
 screenshots: []
 
@@ -13,12 +13,12 @@ icon: icon.png
 #
 # define a set of similar apps that might be useful to the user
 #
-suggestions:
-    apps:
-        related:
-            [app1, app2]
-        next:
-            [app3, app4]
+# suggestions:
+#     apps:
+#         related:
+#             [app1, app2]
+#         next:
+#             [app3, app4]
 
 #
 # Configure the display and description of parameters
@@ -26,15 +26,24 @@ suggestions:
 parameters :
     input_tbl :
         ui-name : |
-            Datasets for multi-species
+            Growth data for multi-species
         short-hint : |
-            The first parameter
+            Growth data for multi-species
         long-hint  : |
-            The first parameter that needs to be entered to drive the method. This might be the first of many.
+            Growth data for multi-species. Growth data includes population data in axenic, binary, and complex cultures. 
 
 description : |
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar efficitur felis, quis tincidunt sem congue at. Vivamus ornare feugiat faucibus. Fusce tincidunt mattis nunc, nec varius purus convallis quis. Nulla facilisi. In at magna dolor. Suspendisse sit amet felis at arcu auctor dapibus vitae pharetra dui. Nam semper mi quis tortor fermentum mollis. Donec a arcu pharetra, rutrum dolor vitae, rutrum mauris. Donec ornare fringilla sagittis. Nam laoreet est in elementum malesuada. Vestibulum id mi eget urna hendrerit feugiat. Donec et ultrices nulla. Phasellus diam eros, dapibus at tempus nec, semper vel ante.</p>
+    MIIA is a network inference tool for predicting member-dependent interactions in microbial communities, which can deepen our understanding of the organization principles in ecological communities.
 
-    <p>Curabitur auctor, metus at tristique euismod, odio elit tincidunt neque, a facilisis sem massa convallis dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc ut hendrerit tellus. Nunc lacinia laoreet finibus. Etiam vitae sagittis enim. Fusce consectetur porta est eu pretium. In hac habitasse platea dictumst. Integer pellentesque sit amet sapien id venenatis. Nullam ac risus at orci eleifend aliquet. Vestibulum elit purus, euismod a nibh quis, pellentesque semper leo. Curabitur ullamcorper felis hendrerit nunc egestas, sit amet pharetra sapien porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas hendrerit ipsum a ligula aliquet vestibulum. Duis a ante urna. Aenean ante neque, rhoncus id luctus ut, accumsan vel nunc.</p>
+publications :
+    -
+        pmid: 31263456
+        display-text: |
+            Song H-S, Lee J-Y, Haruta S, Nelson WC, Lee D-Y, Lindemann SR, Fredrickson JK and Bernstein HC (2019) Minimal Interspecies Interaction Adjustment (MIIA): Inference of Neighbor-Dependent Interactions in Microbial Communities. Front. Microbiol. 10:1264. doi: 10.3389/fmicb.2019.01264
+        link: https://www.frontiersin.org/articles/10.3389/fmicb.2019.01264
 
-    <p>Pellentesque accumsan aliquet magna, id consectetur tellus condimentum eu. Suspendisse elit dui, ornare ac leo eget, tincidunt feugiat orci. Maecenas auctor gravida lacinia. Mauris interdum nisi vel gravida varius. Nullam tempus, purus eget posuere aliquet, odio elit semper massa, quis facilisis massa odio vitae lacus. Fusce varius enim a mi vehicula tempus. Maecenas faucibus tellus ipsum, at venenatis ipsum auctor et. Suspendisse sem mi, dignissim id porta efficitur, auctor eget magna. Vivamus varius purus nulla, porttitor euismod lorem cursus quis. Nulla sit amet eros nec sem ultrices pulvinar.</p>
+    -
+        pmid: 32038529
+        display-text: |
+            Lee J-Y, Haruta S, Kato S, Bernstein HC, Lindemann SR, Lee D-Y, Fredrickson JK and Song H-S (2020) Prediction of Neighbor-Dependent Microbial Interactions From Limited Population Data. Front. Microbiol. 10:3049. doi: 10.3389/fmicb.2019.03049
+        link: https://www.frontiersin.org/articles/10.3389/fmicb.2019.03049
